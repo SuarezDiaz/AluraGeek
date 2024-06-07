@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Game boy",
+      "price": "800",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/375px-Game-Boy-FL.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Game boy Color",
+      "price": "950",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Game boy Advance",
+      "price": "950",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg",
+      "id": "3"
+    },
+    {
+      "id": "e9d6",
+      "name": "GB sp",
+      "price": "900",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gameboy-Advance-SP-Mk2.jpg/640px-Gameboy-Advance-SP-Mk2.jpg"
+    },
+    {
+      "id": "175e",
+      "name": "Gameboy pocket",
+      "price": "600",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Game-Boy-Pocket-FL.jpg/1200px-Game-Boy-Pocket-FL.jpg"
+    },
+    {
+      "id": "cc7f",
+      "name": "GB micro",
+      "price": "900",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Game-Boy-Micro.jpg/1200px-Game-Boy-Micro.jpg"
+    },
+    {
+      "id": "f148",
+      "name": "gb",
+      "price": "500",
+      "image": "https://m.media-amazon.com/images/I/71JxDu4z+qL.jpg"
+    },
+    {
+      "id": "152c",
+      "name": "GB Advance",
+      "price": "900",
+      "image": "https://i.guim.co.uk/img/media/96a7a0b6779452c2e29ecb1b1d7bb8ae8b37fd88/63_0_1489_894/master/1489.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=d180030dff6f1d68773ab517bcb4cb94"
+    },
+    {
+      "id": "20e1",
+      "name": "GB original",
+      "price": "950",
+      "image": "https://i.ebayimg.com/thumbs/images/g/NRoAAOSw-nVjr56x/s-l1200.jpg"
+    },
+    {
+      "id": "37eb",
+      "name": "GB chino",
+      "price": "900",
+      "image": "https://s1.elespanol.com/2023/08/08/elandroidelibre/785181775_235229959_1706x960.jpg"
+    }
+  ]
+}

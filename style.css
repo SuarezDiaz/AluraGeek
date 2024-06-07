@@ -1,0 +1,340 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .Alu-geek{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Press Start 2P";
+    color: white;
+    background-color: #5300C8;
+    font-size: x-large;
+}
+
+.Alu-geek img{
+    width: 150px;
+    height: 125px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.products-title{
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P";
+    margin: 20px;
+}
+
+.products-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cards-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 8px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #5D04D9;
+    color: white;
+    width: 135px;
+    height: -webkit-fill-available;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.image-container{
+        align-self: flex-start;
+        width: 135px;
+        height: -webkit-fill-available;
+        /* border: 3px black solid; */
+        border-radius: 10px;
+}
+
+.image-container img{
+        width: 135px;
+        height: -webkit-fill-available;
+        border: 3px black solid;
+        border-radius: 10px;
+}
+
+
+.card-info{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.card-value{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.delete-button{
+        width: 15px;
+        height: 15px;
+    }
+
+
+    form-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-item {
+        display: flex;
+        width: 90%;
+        height: 30px;
+        border: 3px solid #03318C;
+        border-radius: 9px;
+        margin: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .list-title{
+        font-family: "Press Start 2P";
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .bt-submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Press Start 2P";
+        background-color: #03318C;
+        color: white;
+        width: 164px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .bt-reset{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Press Start 2P";
+        background-color: white; 
+        color: #03318C;
+        border: 3px solid #03318C;
+        width: 164px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+
+.Alu-geeker{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Press Start 2P";
+    color: white;
+    background-color: #5300C8;
+    height: 109px;
+}
+
+.Alu-geeker img{
+    width: 150px;
+    height: 125px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color:#5300C8;
+}
+
+.footer h3{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Alu-geek{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: "Press Start 2P";
+        color: white;
+        background-color: #5300C8;
+    }
+
+    .Alu-geek img{
+        width: 140px;
+        height: 70px;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .form-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-item {
+        display: flex;
+        width: 90%;
+        height: 30px;
+        border: 3px solid #03318C;
+        border-radius: 9px;
+        margin: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .list-title{
+        font-family: "Press Start 2P";
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .bt-submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Press Start 2P";
+        background-color: #03318C;
+        color: white;
+        width: 164px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .bt-reset{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Press Start 2P";
+        background-color: white; 
+        color: #03318C;
+        border: 3px solid #03318C;
+        width: 164px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .cards-section{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin-top: 40px;
+        padding-left: 8px;
+    }
+
+    .products-title{
+        display: flex;
+        justify-content: center;
+        font-family: "Press Start 2P";
+        margin: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #5D04D9;
+        color: white;
+        width: 135px;
+        height: -webkit-fill-available;
+        border: 3px black solid;
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .image-container{
+        align-self: flex-start;
+        width: 135px;
+        height: -webkit-fill-available;
+        /* border: 3px black solid; */
+        border-radius: 10px;
+    }
+
+    .image-container img{
+        width: 135px;
+        height: -webkit-fill-available;
+        border: 3px black solid;
+        border-radius: 10px;
+}
+
+    .card-value{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    .delete-button{
+        width: 15px;
+        height: 15px;
+    }
+
+    .Alu-geeker{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: "Press Start 2P";
+        color: white;
+        background-color: #5300C8;
+    }
+
+    .Alu-geeker img{
+        width: 140px;
+        height: 70px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color:#5300C8;
+    }
+
+    .footer h3{
+        display: flex;
+        justify-content: center;
+    }
+}
+
